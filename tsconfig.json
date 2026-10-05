@@ -1,8 +1,7 @@
 {
     "compilerOptions":{
         "target": "esnext",
-        "module": "nodenext", 
-        "moduleResolution":"nodenext",
+        "module": "commonjs", 
         "lib":["ESNext"],
         "types": ["node"],
         "strict": true,
@@ -10,6 +9,7 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "noEmit": true,
+        "rootDir":"src",
         "outDir":"dist",
     }, 
     "include":["src/**/*.ts"], 
