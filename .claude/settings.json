@@ -3,7 +3,10 @@
     "allow": [
       "Bash(node src/app/connection/pg.connection.ts)",
       "Bash(npx tsc *)",
-      "mcp__claude-vscode__getDiagnostics"
+      "mcp__claude-vscode__getDiagnostics",
+      "Bash(gh pr *)",
+      "Bash(git show *)",
+      "Read(//Users/coditas/**)"
     ]
   }
 }
